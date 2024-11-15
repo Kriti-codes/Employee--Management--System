@@ -1,90 +1,79 @@
-This project is a web application built using the MERN (MongoDB, Express, React, Node.js) stack. It provides functionalities to manage employee information, including adding, updating, deleting, and viewing employees. The system also supports searching and paginating the list of employees.
+This project is a web application built using the MERN (MongoDB, Express, React, Node.js) stack. It provides functionalities to manage employee <br>information, including adding, updating, deleting, and viewing employees. The system also supports searching and paginating the list of employees.<br>
 
 Features
-Add Employee: Add new employees with details like name, email, phone, department, salary, and profile image.
-Update Employee: Update existing employee details.
-Delete Employee: Remove an employee from the system.
-View Employee: View detailed information about an employee.
-Search Employees: Search for employees by name.
-Pagination: Navigate through pages of employees.
-Technologies Used
-Frontend: React.js
-Backend: Node.js, Express.js
-Database: MongoDB
-Styling: Bootstrap
-State Management: React Hooks
-Installation and Setup
-Prerequisites
-Make sure you have the following installed on your machine:
+Add Employee: Add new employees with details like name, email, phone, department, salary, and profile image.<br>
+Update Employee: Update existing employee details.<br>
+Delete Employee: Remove an employee from the system.<br>
+View Employee: View detailed information about an employee.<br>
+Search Employees: Search for employees by name.<br>
+Pagination: Navigate through pages of employees.<br>
+Technologies Used<br>
+Frontend: React.js<br>
+Backend: Node.js, Express.js<br>
+Database: MongoDB<br>
+Styling: Bootstrap<br>
+State Management: React Hooks<br>
+Installation and Setup<br>
+Prerequisites<br>
+Make sure you have the following installed on your machine:<br>
 
-Node.js
-MongoDB
-Clone the Repository
-bash
-Copy code
-git clone https://github.com/your-username/employee-management-system.git
-cd employee-management-system
-Backend Setup
-Navigate to the backend directory:
+Node.js<br>
+MongoDB<br>
+Clone the Repository<br>
+bash<br>
+Copy code<br>
+git clone https://[github.com/sukri/employee-management-system](https://github.com/Kriti-codes/Employee--Management--System).git
+cd employee-management-system<br>
+Backend Setup<br>
+Navigate to the backend directory:<br>
 
-bash
-Copy code
-cd backend
-Install the dependencies:
+bash<br>
+Copy code<br>
+cd backend<br>
+Install the dependencies:<br>
 
-bash
-Copy code
-npm install
+bash<br>
+Copy code<br>
+npm install<br>
 Create a .env file in the backend directory and add the following environment variables:
+<br>
+makefile<br>
+Copy code<br>
+PORT=8080<br>
+MONGO_URI=your_mongodb_connection_string<br>
+Start the backend server:<br>
 
-makefile
-Copy code
-PORT=8080
-MONGO_URI=your_mongodb_connection_string
-Start the backend server:
+bash<br>
+Copy code<br>
+npm start<br>
+The backend server will run on http://localhost:8080.<br>
 
-bash
-Copy code
-npm start
-The backend server will run on http://localhost:8080.
+Frontend Setup<br>
+Navigate to the frontend directory:<br>
 
-Frontend Setup
-Navigate to the frontend directory:
+bash<br>
+Copy code<br>
+cd frontend<br>
+Install the dependencies:<br>
 
-bash
-Copy code
-cd frontend
-Install the dependencies:
+bash<br>
+Copy code<br>
+npm install<br>
+Start the frontend server:<br>
 
-bash
-Copy code
-npm install
-Start the frontend server:
-
-bash
-Copy code
-npm start
-The frontend server will run on http://localhost:3000.
+bash<br>
+Copy code<br>
+npm start<br>
+The frontend server will run on http://localhost:3000.<br>
 
 Usage
-Adding an Employee: Click on the "Add" button and fill out the form.
-Updating an Employee: Click on the edit icon next to an employee's name, modify the details, and save.
-Deleting an Employee: Click on the delete icon next to an employee's name.
-Searching for Employees: Use the search bar to find employees by name.
-Pagination: Use the pagination controls to navigate through the list of employees.
-Project Structure
-backend/: Contains the backend code, including routes and database models.
-frontend/: Contains the React frontend code.
-public/: Public assets for the frontend.
-src/: Main source code for the frontend.
-Contributing
-Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-React documentation
-MongoDB documentation
-Express documentation
-Bootstrap for styling
+Adding an Employee: Click on the "Add" button and fill out the form.<br>
+Updating an Employee: Click on the edit icon next to an employee's name, modify the details, and save.<br>
+Deleting an Employee: Click on the delete icon next to an employee's name.<br>
+Searching for Employees: Use the search bar to find employees by name.<br>
+Pagination: Use the pagination controls to navigate through the list of employees.<br>
+Project Structure<br>
+backend/: Contains the backend code, including routes and database models.<br>
+frontend/: Contains the React frontend code.<br>
+public/: Public assets for the frontend.<br>
+src/: Main source code for the frontend.<br>
